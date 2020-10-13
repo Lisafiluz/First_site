@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/contact.css" />
+<script src="js/contactUs.js"></script>
+</head>
+<body>
+    <header class="nav-scrolled">
+        <a href="#" class="site-logo" aria-label="homepage">Logo</a>
+        <nav class="main-nav">
+          <ul class="nav__list">
+            <li class="nav__list-item"><a href="index.html" class="nav__link">בית</a></li>
+            <li class="nav__list-item">
+              <a href="#" class="nav__link">פרוייקטים</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#" class="nav__link">המהנדסים שלנו</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#" class="nav__link">דרושים</a>
+            </li>
+            <li class="nav__list-item">
+                <a href="" class="nav__link">צור קשר</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    <div class="background">
+        <div class="container">
+          <div class="screen">
+
+            <div class="screen-body">
+              <div class="screen-body-item left">
+                <div class="app-title">
+                  <span>צור קשר</span>
+                  <!-- <span>US</span> -->
+                </div>
+                
+                <div class="app-contact">טלפון: 03-2222222</div>
+                <div class="app-contact">כתובת: יגאל אלון 120, תל אביב יפו</div>
+                <div class="app-contact">אימייל: s.ben@bblabla.com</div>
+                <div class="app-contact">שעות פעילות: א-ה 08:00 - 17:00</div>
+              </div>
+              <div class="screen-body-item">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d845.2095900047444!2d34.79513359163546!3d32.07362036988597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d4b988eceb073%3A0x6888846e209e6f0c!2z16kuINeR158g15DXkdeo15TXnSDXnteU16DXk9eh15nXnSDXkdeiItee!5e0!3m2!1sen!2sil!4v1602579306021!5m2!1sen!2sil"
+                width="500" height="400" frameborder="0" style="border:0;" allowfullscreen=""
+                aria-hidden="false" tabindex="0"></iframe>
+              </div>
+              <div class="screen-body-item">
+                <div  class="app-title">
+                    <span>כתוב לנו ונחזור אליך</span>
+                </div>
+                <div class="app-form">
+                  <div class="app-form-group">
+                    <input class="app-form-control" id="fullName_input" placeholder="שם מלא" autofocus>
+                  </div>
+                  <div class="app-form-group">
+                    <input class="app-form-control" id="mail_input" placeholder="מייל">
+                  </div>
+                  <div class="app-form-group">
+                    <input class="app-form-control" id="phone_input" placeholder="מספר פלאפון">
+                  </div>
+                  <div class="app-form-group message">
+                    <textarea class="app-form-control" id="message_input" style="padding-bottom: 50px;" placeholder="תוכן ההודעה"></textarea>
+                  </div>
+                  <div class="app-form-group buttons">
+                    <button class="app-form-button" onclick="clear_form();">נקה</button>
+                    <button class="app-form-button" onclick="send_contactUs_mail();">שלח</button>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+
+
+</body>
+</html> 
